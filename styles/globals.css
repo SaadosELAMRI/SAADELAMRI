@@ -8,5 +8,31 @@ html {
 }
 
 .custom-img {
-  background-image: url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80')
+  background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2020&q=80');
+
+}
+
+
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.icons > * {
+  margin-right: 2rem;
+}
+
+svg {
+  width: 2rem;
+  height: 2rem;
+  color: #c32aa3;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+svg:hover {
+  transform: scale(1.2);
 }
