@@ -6,6 +6,7 @@ import { SliderData } from '../components/SliderData';
 import InstagramIcon from '../components/Icon';
 import FacebookIcon from '../components/FacebookIcon';
 import LinkedInIcon from '../components/LinkedInIcon';
+import HtmlIcon from '../components/HtmlIcon';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <InstagramIcon />
         <FacebookIcon />
         <LinkedInIcon />
+
       </div>
     </div>
   );

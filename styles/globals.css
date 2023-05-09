@@ -10,10 +10,8 @@ html {
 .custom-img {
   background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2020&q=80');
 
+
 }
-
-
-
 
 .icons {
   display: flex;
@@ -26,8 +24,8 @@ html {
 }
 
 svg {
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
   color: #c32aa3;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
