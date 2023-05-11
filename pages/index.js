@@ -22,12 +22,25 @@ export default function Home() {
       />
 
       <Slider slides={SliderData} />
-      <div className='flex justify-center mt-8 space-x-8 mb-4'>
+      <div className='flex justify-center mt-8 space-x-8 mb-4 text-center'>
         <InstagramIcon />
         <FacebookIcon />
         <LinkedInIcon />
 
       </div>
+      <style jsx>{`
+        .message-container {
+          max-width: 80%;
+          margin: auto;
+        }
+
+        @media (max-width: 640px) {
+          .message-container {
+            max-width: 100%;
+            font-size: 14px;
+          }
+        }
+      `}</style>
     </div>
   );
 }

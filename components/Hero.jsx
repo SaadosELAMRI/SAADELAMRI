@@ -1,11 +1,10 @@
 import React from 'react';
 import { IoLogoHtml5 } from 'react-icons/io';
 import { SiCss3, SiJavascript,SiMysql,SiApachecassandra, SiMongodb } from 'react-icons/si';
-import { FaJava } from 'react-icons/fa';
+import { FaJava , FaPython} from 'react-icons/fa';
 import { TbBrandNextjs,TbBrandCSharp } from 'react-icons/tb';
 import { AiFillAndroid,AiOutlineConsoleSql,AiFillGithub } from 'react-icons/ai';
 import { FcLinux } from 'react-icons/fc';
-
 
 
 
@@ -34,7 +33,7 @@ const Hero = ({ heading, message }) => {
           <FcLinux/>
           <TbBrandCSharp className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
           <AiFillGithub className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
-
+          <FaPython className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
         </div>
       </div>
     </div>

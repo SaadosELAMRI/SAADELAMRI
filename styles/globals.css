@@ -12,6 +12,14 @@ html {
 
 
 }
+@media (max-width: 640px) {
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+}
 
 .icons {
   display: flex;
