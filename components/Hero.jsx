@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoLogoHtml5 } from 'react-icons/io';
-import { SiCss3, SiJavascript,SiMysql,SiApachecassandra, SiMongodb } from 'react-icons/si';
+import { SiCss3, SiPowershell,SiWindows ,SiCisco,SiJavascript,SiMysql,SiApachecassandra, SiMongodb,SiMicrosoftazure} from 'react-icons/si';
 import { FaJava , FaPython} from 'react-icons/fa';
 import { TbBrandNextjs,TbBrandCSharp } from 'react-icons/tb';
 import { AiFillAndroid,AiOutlineConsoleSql,AiFillGithub } from 'react-icons/ai';
@@ -34,6 +34,10 @@ const Hero = ({ heading, message }) => {
           <TbBrandCSharp className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
           <AiFillGithub className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
           <FaPython className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
+          <SiMicrosoftazure className='text-blue-500 text-12xl hover:text-gray-300 cursor-pointer'/>
+          <SiCisco className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
+          <SiWindows className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
+          <SiPowershell className='text-blue-400 text-12xl hover:text-gray-300 cursor-pointer'/>
         </div>
       </div>
     </div>
