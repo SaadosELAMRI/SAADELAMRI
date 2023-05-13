@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoLogoHtml5 } from 'react-icons/io';
 import { SiCss3, SiPowershell, SiWindows, SiCisco, SiJavascript, SiMysql, SiApachecassandra, SiMongodb, SiMicrosoftazure } from 'react-icons/si';
-import { FaJava, FaPython } from 'react-icons/fa';
+import { FaJava, FaSwift,FaPython } from 'react-icons/fa';
 import { TbBrandNextjs, TbBrandCSharp } from 'react-icons/tb';
 import { AiFillAndroid, AiOutlineConsoleSql, AiFillGithub } from 'react-icons/ai';
 import { FcLinux } from 'react-icons/fc';
@@ -15,7 +15,9 @@ const Hero = ({ heading, message }) => {
         <h2 className='text-5xl font-bold'>{heading}</h2>
         <p className='py-5 text-xl'>{message}</p>
         <p className='py-5 text-4xl font-bold text-center'>My skills</p>
-                <p className='py-5 text-xl text-center'> (I update my portfolios regularly. If something aint showing up right, I am sorry!) </p>
+
+
+        <p className='py-5 text-xl text-center'> (I update my portfolios regularly. If something aint showing up right, I am sorry!) </p>
 
         {/* Splitting icons into two lines */}
         <div className='icons flex flex-wrap justify-center'>
@@ -42,7 +44,9 @@ const Hero = ({ heading, message }) => {
           <SiMicrosoftazure title='Microsoft Azure' className='text-blue-500 text-12xl hover:text-gray-300 cursor-pointer'/>
           <SiCisco title='Cisco' className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
           <SiWindows title='Windows 10' className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
+         
           <SiPowershell title='Windows PowerShell' className='text-blue-400 text-12xl hover:text-gray-300 cursor-pointer'/>
+         <FaSwift title='SwiftUI' className='text-blue-900 text-12xl hover:text-gray-300 cursor-pointer'/>
         </div>
       </div>
     </div>
