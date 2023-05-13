@@ -1,12 +1,10 @@
 import React from 'react';
 import { IoLogoHtml5 } from 'react-icons/io';
-import { SiCss3, SiPowershell,SiWindows ,SiCisco,SiJavascript,SiMysql,SiApachecassandra, SiMongodb,SiMicrosoftazure} from 'react-icons/si';
-import { FaJava , FaPython} from 'react-icons/fa';
-import { TbBrandNextjs,TbBrandCSharp } from 'react-icons/tb';
-import { AiFillAndroid,AiOutlineConsoleSql,AiFillGithub } from 'react-icons/ai';
+import { SiCss3, SiPowershell, SiWindows, SiCisco, SiJavascript, SiMysql, SiApachecassandra, SiMongodb, SiMicrosoftazure } from 'react-icons/si';
+import { FaJava, FaPython } from 'react-icons/fa';
+import { TbBrandNextjs, TbBrandCSharp } from 'react-icons/tb';
+import { AiFillAndroid, AiOutlineConsoleSql, AiFillGithub } from 'react-icons/ai';
 import { FcLinux } from 'react-icons/fc';
-
-
 
 const Hero = ({ heading, message }) => {
   return (
@@ -17,9 +15,9 @@ const Hero = ({ heading, message }) => {
         <h2 className='text-5xl font-bold'>{heading}</h2>
         <p className='py-5 text-xl'>{message}</p>
         <p className='py-5 text-4xl font-bold text-center'>My skills</p>
-
-
-        <div className='icons'>
+        
+        {/* Splitting icons into two lines */}
+        <div className='icons flex flex-wrap justify-center'>
           <IoLogoHtml5 className='text-orange-500 text-12xl hover:text-orange-700 cursor-pointer' />
           <SiCss3 className='text-blue-500 text-12xl hover:text-blue-700 cursor-pointer' />
           <SiJavascript className='text-yellow-500 text-12xl hover:text-yellow-700 cursor-pointer' />
@@ -30,6 +28,9 @@ const Hero = ({ heading, message }) => {
           <SiMysql className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
           <SiApachecassandra className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
           <SiMongodb className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
+        </div>
+        
+        <div className='icons flex flex-wrap justify-center'>
           <FcLinux/>
           <TbBrandCSharp className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
           <AiFillGithub className='text-white text-12xl hover:text-gray-300 cursor-pointer'/>
