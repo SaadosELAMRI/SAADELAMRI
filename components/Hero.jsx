@@ -17,7 +17,6 @@ const Hero = ({ heading, message }) => {
         <p className='py-5 text-4xl font-bold text-center'>My skills</p>
 
 
-        <p className='py-5 text-xl text-center'> (I update my portfolios regularly. If something aint showing up right, I am sorry!) </p>
 
         {/* Splitting icons into two lines */}
         <div className='icons flex flex-wrap justify-center'>
